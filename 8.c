@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
- int n, i, f=0;
+ int n, i, k=0;
  scanf("%d",&n);
  if(n<=0)
  printf("Enter no greater than 0");
@@ -9,8 +9,8 @@ void main()
  {
    for(i=1;i<=n;i++)
      {
-       f=f+i;
+       k=k+i;
      }
-   printf("%d",f);
+   printf("%d",k);
   }
 }
